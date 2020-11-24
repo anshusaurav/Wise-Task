@@ -9,7 +9,7 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      users: ["story", "feeldsadasdsawqeqwqe", "may", "sure", "curious", "best", "does", "entirely", "meal", "pride", "lift", "difference", "star", "should", "what", "only", "color", "whenever", "hardly", "smoke", "partly", "coffee", "more", "numeral", "firm", "atmosphere", "clearly", "her", "your", "equipment", "heart", "rock", "cake", "depth", "noun", "if", "medicine", "labor", "stairs", "treated", "vapor", "closely", "personal", "favorite", "brain", "locate", "tent", "calm", "swung", "judge", "frame", "felt", "sitting", "weather", "enjoy", "same", "calm", "hurt", "mile", "advice", "route", "bone", "shoe", "no", "put", "clean", "typical", "frozen", "live", "feet", "us", "flower", "active", "wise", "best", "grade", "contain", "ate", "train", "day", "ago", "lot", "rock", "winter", "children", "wise", "row", "improve", "search", "famous", "wait", "tonight", "coast", "shelter", "citizen", "sail", "paper", "lion", "standard", "exactly", "also", "drop", "save", "quite", "detail", "beautiful", "disappear", "lot", "service", "pan", "desert", "transportation", "planet", "almost", "war", "indicate", "visitor", "business", "greater", "enough", "just", "swing", "fill", "nor", "service", "hide", "base", "bowl", "piece", "myself", "take", "bone", "learn", "rich", "standard", "event", "tone", "strange", "compass", "see", "health", "wheat", "invented", "identity", "parent", "child", "heart", "vertical", "empty", "believed", "trail", "branch", "seldom", "not", "feathers", "little", "mistake", "reach", "mental", "stranger", "company", "population", "label", "therefore", "party", "disease", "throughout", "pipe", "operation", "spoken", "today", "explain", "golden", "fair", "mice", "bush", "branch", "concerned", "enjoy", "express", "police", "attention", "happen", "gulf", "ants", "some", "mass", "amount", "part", "owner", "thank", "former", "loud", "running", "society", "unit", "watch", "aloud", "needs", "anyone", "shall", "feature", "rope", "wire", "rope", "model", "castle", "mill", "mice", "bill", "early", "save", "globe", "zebra", "wonder", "sat", "clean", "tropical", "at", "grandmother", "eager", "best", "memory", "range", "office", "planet", "opposite", "cream", "younger", "shown", "iron", "race", "hour", "folks", "took", "television", "enemy", "oxygen", "store", "mean", "year", "trunk", "claws", "those", "stomach", "evening", "attack", "goose", "nervous", "straight", "thick", "taste", "tip", "rock", "by", "pile", "pour", "missing", "cast", "breakfast", "select", "right", "tool", "beyond", "than", "safe", "clothes", "crop", "thread", "noted", "thee", "speech", "hollow", "enjoy", "car", "farther", "sit", "dry", "bad", "sometime", "swing", "worried", "fat", "noted", "ruler", "oil", "mainly", "afternoon", "entirely", "tune", "having", "additional", "visit", "swim", "poet", "route", "rush", "curious", "rose", "exclaimed", "note", "species", "necessary", "appearance", "region", "needed", "morning", "angry", "atom", "harbor", "probably", "part", "suppose", "firm", "stream", "travel", "caught", "prove", "occasionally", "feathers", "although", "sunlight", "gave", "exist", "nobody", "customs", "law", "thou", "hundred", "weather", "length", "atomic", "particularly", "pure", "water", "wrong", "struggle", "saved", "furniture", "president", "cabin", "themselves", "share", "noon", "develop", "vote", "rose", "free", "carry", "lead", "very", "slept", "slave", "wear", "combine", "fix", "street", "essential", "anywhere", "active", "education", "power", "occasionally", "pony", "serious", "leader", "paper", "trouble", "page", "scale", "greatly", "level", "fog", "tobacco", "worse", "sudden", "reach", "ring", "floor", "tin", "plastic", "sudden", "town", "period", "outside", "tobacco", "indicate", "shells", "realize", "allow", "entirely", "stuck", "ground", "indeed", "spirit", "breeze", "mouse", "escape", "manner", "various", "entire", "salt", "skill", "fort", "account", "natural", "battle", "good", "tribe", "fall", "automobile", "let", "everybody", "bring", "built", "court", "see", "two", "yet", "slip", "movie", "previous", "prize", "floating", "gas", "frame", "suddenly", "stiff", "fast", "cross", "drive", "medicine", "heading", "bet", "press", "recall", "vowel", "hot", "bear", "quietly", "review", "interest", "must", "curve", "tune", "written", "had", "dollar", "feel", "object", "mixture", "powerful", "wind", "report", "planet", "fact", "stomach", "early", "special", "very", "industry", "feet", "do", "definition", "getting", "development", "send", "room", "badly", "nearer", "gift", "able", "storm", "pole", "claws", "shut", "clock", "recognize", "begun", "away", "tomorrow", "progress", "weak", "atomic", "am", "pick", "sand", "essential", "various", "fuel", "into", "bigger", "straw", "girl", "line", "further", "announced", "toy", "knew", "thirty"],
+      users: ["story", "feeldsadasdsawqeqwqe", "may", "sure", "curious", "best", "does", "entirely", "meal", "pride", "lift", "difference", "star", "should", "what", "only", "color", "whenever", "hardly", "smoke", "partly", "coffee", "more", "xebec", "xenia", "xenon", "xeric", "xerus", "xians", "xoana", "numeral", "firm", "atmosphere", "clearly", "her", "your", "equipment", "heart", "rock", "cake", "depth", "noun", "if", "medicine", "labor", "stairs", "treated", "vapor", "closely", "personal", "favorite", "brain", "locate", "tent", "calm", "swung", "judge", "frame", "felt", "sitting", "weather", "enjoy", "same", "calm", "hurt", "mile", "advice", "route", "bone", "shoe", "no", "put", "clean", "typical", "frozen", "live", "feet", "us", "flower", "active", "wise", "best", "grade", "contain", "ate", "train", "day", "ago", "lot", "rock", "winter", "children", "wise", "row", "improve", "search", "famous", "wait", "tonight", "coast", "shelter", "citizen", "sail", "paper", "lion", "standard", "exactly", "also", "drop", "save", "quite", "detail", "beautiful", "disappear", "lot", "service", "pan", "desert", "transportation", "planet", "almost", "war", "indicate", "visitor", "business", "greater", "enough", "just", "swing", "fill", "nor", "service", "hide", "base", "bowl", "piece", "myself", "take", "bone", "learn", "rich", "standard", "event", "tone", "strange", "compass", "see", "health", "wheat", "invented", "identity", "parent", "child", "heart", "vertical", "empty", "believed", "trail", "branch", "seldom", "not", "feathers", "little", "mistake", "reach", "mental", "stranger", "company", "population", "label", "therefore", "party", "disease", "throughout", "pipe", "operation", "spoken", "today", "explain", "golden", "fair", "mice", "bush", "branch", "concerned", "enjoy", "express", "police", "attention", "happen", "gulf", "ants", "some", "mass", "amount", "part", "owner", "thank", "former", "loud", "running", "society", "unit", "watch", "aloud", "needs", "anyone", "shall", "feature", "rope", "wire", "rope", "model", "castle", "mill", "mice", "bill", "early", "save", "globe", "zebra", "wonder", "sat", "clean", "tropical", "at", "grandmother", "eager", "best", "memory", "range", "office", "planet", "opposite", "cream", "younger", "shown", "iron", "race", "hour", "folks", "took", "television", "enemy", "oxygen", "store", "mean", "year", "trunk", "claws", "those", "stomach", "evening", "attack", "goose", "nervous", "straight", "thick", "taste", "tip", "rock", "by", "pile", "pour", "missing", "cast", "breakfast", "select", "right", "tool", "beyond", "than", "safe", "clothes", "crop", "thread", "noted", "thee", "speech", "hollow", "enjoy", "car", "farther", "sit", "dry", "bad", "sometime", "swing", "worried", "fat", "noted", "ruler", "oil", "mainly", "afternoon", "entirely", "tune", "having", "additional", "visit", "swim", "poet", "route", "rush", "curious", "rose", "exclaimed", "note", "species", "necessary", "appearance", "region", "needed", "morning", "angry", "atom", "harbor", "probably", "part", "suppose", "firm", "stream", "travel", "caught", "prove", "occasionally", "feathers", "although", "sunlight", "gave", "exist", "nobody", "customs", "law", "thou", "hundred", "weather", "length", "atomic", "particularly", "pure", "water", "wrong", "struggle", "saved", "furniture", "president", "cabin", "themselves", "share", "noon", "develop", "vote", "rose", "free", "carry", "lead", "very", "slept", "slave", "wear", "combine", "fix", "street", "essential", "anywhere", "active", "education", "power", "occasionally", "pony", "serious", "leader", "paper", "trouble", "page", "scale", "greatly", "level", "fog", "tobacco", "worse", "sudden", "reach", "ring", "floor", "tin", "plastic", "sudden", "town", "period", "outside", "tobacco", "indicate", "shells", "realize", "allow", "entirely", "stuck", "ground", "indeed", "spirit", "breeze", "mouse", "escape", "manner", "various", "entire", "salt", "skill", "fort", "account", "natural", "battle", "good", "tribe", "fall", "automobile", "let", "everybody", "bring", "built", "court", "see", "two", "yet", "slip", "movie", "previous", "prize", "floating", "gas", "frame", "suddenly", "stiff", "fast", "cross", "drive", "medicine", "heading", "bet", "press", "recall", "vowel", "hot", "bear", "quietly", "review", "interest", "must", "curve", "tune", "written", "had", "dollar", "feel", "object", "mixture", "powerful", "wind", "report", "planet", "fact", "stomach", "early", "special", "very", "industry", "feet", "do", "definition", "getting", "development", "send", "room", "badly", "nearer", "gift", "able", "storm", "pole", "claws", "shut", "clock", "recognize", "begun", "away", "tomorrow", "progress", "weak", "atomic", "am", "pick", "sand", "essential", "various", "fuel", "into", "bigger", "straw", "girl", "line", "further", "announced", "toy", "knew", "thirty"],
       positionIdx: 2,
       dimModeIdx: 0,
       isVisible: true,
@@ -51,18 +51,8 @@ export default class App extends Component {
       .join(',');
     const { name, email } = this.state;
     return (
-      <div style={{
-        fontSize: '16px',
-        color: '#999',
-        height: '100vh'
-      }}>
-        <div style={{
-          width: '100%',
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          paddingTop: '30vh'
-        }}>
+      <div className="main">
+        <div className="main-control-wrapper">
           <h1>Wise</h1>
           <div>
             <input type='checkbox'
@@ -88,14 +78,7 @@ export default class App extends Component {
             } : null}
             duration={duration}>
             {({ position, isResizing }) =>
-              <div style={{
-                width: '100%',
-                height: '100vh',
-                display: 'flex',
-                justifyContent: 'space-between',
-                flexDirection: 'column',
-
-              }}>
+              <div className="sidebar">
 
                 <div className="invoice-header" >
                   <h1>Create an invoice</h1>
@@ -107,12 +90,12 @@ export default class App extends Component {
                   <p className="invoice-users-text">Who are you sending the invoice to?</p>
                   <p className="invoice-users-text">Recents</p>
                   <div className="invoice-recent-users">
-                    <div className="recent-users" style={{ display: 'grid', gridAutoFlow: 'column', gridGap: '1rem' }}>
+                    <div className="recent-users">
                       {
                         this.state.users.map((user, index) => (
-                          <div className="recent-unit-user" style={{ textAlign: 'center' }}>
-                            <div style={{
-                              borderRadius: '50%', background: Colors[index % 10], height: 50, width: 50, display: 'flex', alignItems: 'center', justifyContent: 'center'
+                          <div className="recent-unit-user">
+                            <div className="user-display-wrapper" style={{
+                              background: Colors[index % 10]
                             }}>
                               <span>{user.toUpperCase()[0]}</span>
                             </div>
@@ -121,10 +104,11 @@ export default class App extends Component {
                         ))
                       }
                     </div>
-                    <div className="invoice-users-trail">
 
-                    </div>
                   </div>
+                </div>
+                <div className="invoice-users-trail">
+
                 </div>
                 <div className="invoice-user-form">
                   <form>

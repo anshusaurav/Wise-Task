@@ -97,6 +97,7 @@ class AlphabetList extends Component {
                                         verticalAlign: 'top',
                                         cursor: 'pointer',
                                         color: '#AAA',
+                                        marginBottom: 4,
                                     }}
                                     onClick={() => { this.handleAlphaClick(item) }}
                                 >
