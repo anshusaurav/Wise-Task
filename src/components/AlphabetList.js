@@ -54,7 +54,7 @@ class AlphabetList extends Component {
                         width: '100%',
                         height: '100%',
                         overflow: 'auto',
-                        paddingRight: 12,
+                        paddingRight: 20,
                     }}
                     ref={(ref) => { this.scroller = ref }}
                 >
