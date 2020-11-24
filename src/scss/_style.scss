@@ -1,0 +1,210 @@
+.userlist {
+  text-align: center;
+  ::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+  .userlist-header {
+    color: black;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ddd;
+    .userlist-header-btn {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      background: #fff;
+      border: none;
+      cursor: pointer;
+      &:focus {
+        outline: none;
+      }
+    }
+    .userlist-header-icon {
+      margin-right: 1rem;
+    }
+  }
+  .userlist-input-wrapper {
+    display: flex;
+    justify-content: start;
+    padding-left: 1rem;
+  }
+  .userlist-input {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.25rem;
+    overflow: visible;
+    color: #4a5568;
+    width: 80%;
+    &:focus {
+      border-color: #4299e1;
+      outline: none;
+    }
+  }
+  .alphabet-tag-wrapper {
+    border-bottom: 1px solid #ccc;
+    margin-right: 20;
+    color: #333;
+    font-weight: 600;
+  }
+  .alphabet-tag {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 600;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    display: inline-block;
+    height: auto;
+    margin-right: 8px;
+    padding: 0 7px;
+    font-size: 12px;
+    line-height: 20px;
+    white-space: nowrap;
+    border-radius: 2px;
+    cursor: default;
+    opacity: 1;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    font-size: 14px;
+    line-height: 22px;
+    .alphabet-list-email {
+      font-size: 12px;
+      margin: 0 4px 0 0;
+      color: #777;
+      font-weight: 400;
+    }
+  }
+}
+
+.invoice-header {
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  h1 {
+    font-weight: 600;
+  }
+  .invoice-header-close {
+    z-index: 1;
+    cursor: pointer;
+  }
+}
+
+.invoice-users {
+  .invoice-users-text {
+    padding: 1rem;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+  }
+  .invoice-recent-users {
+    overflow-x: auto;
+    ::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
+    }
+    span {
+      font-weight: 600;
+      color: #aaa;
+    }
+  }
+  .recent-users {
+    padding: 1rem;
+  }
+  .invoice-users-trail {
+    border-bottom: 1px solid #ddd;
+  }
+}
+.invoice-recent-users::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.invoice-recent-users {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.invoice-user-form {
+  font-family: inherit;
+  padding: 1rem;
+  .invoice-user-form-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  h2 {
+    letter-spacing: 0.1em;
+  }
+  button {
+    cursor: pointer;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  }
+  .invoice-user-contacts-btn {
+    display: flex;
+    align-items: center;
+    color: #fd104d;
+    .contact-btn-icon {
+      margin-right: 0.5rem;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  input {
+    // width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.25rem;
+    overflow: visible;
+    color: #4a5568;
+    width: 100%;
+    &:focus {
+      border-color: #4299e1;
+      outline: none;
+    }
+  }
+  .invoice-form-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .cancel-btn {
+      background-color: white;
+      color: #fd104d;
+      padding: 0.2rem 0.4rem;
+      border-radius: 2px;
+    }
+    .submit-btn {
+      color: white;
+      background-color: #fd104d;
+      padding: 0.2rem 0.4rem;
+      border-radius: 2px;
+      &:disabled {
+        background-color: #faa2b8;
+        pointer-events: none;
+      }
+    }
+  }
+}
